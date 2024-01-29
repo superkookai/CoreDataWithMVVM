@@ -11,6 +11,7 @@
 		BFC4836A2B675E6400A288F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC483692B675E6400A288F9 /* ContentView.swift */; };
 		BFC4836C2B675E6500A288F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC4836B2B675E6500A288F9 /* Assets.xcassets */; };
 		BFC4836F2B675E6500A288F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC4836E2B675E6500A288F9 /* Preview Assets.xcassets */; };
+		BFC483772B67601300A288F9 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFC483752B67601300A288F9 /* FruitsContainer.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BFC483692B675E6400A288F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFC4836B2B675E6500A288F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFC4836E2B675E6500A288F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFC483762B67601300A288F9 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				BFC483672B675E6400A288F9 /* CoreDataWithMVVMApp.swift */,
 				BFC483692B675E6400A288F9 /* ContentView.swift */,
+				BFC483752B67601300A288F9 /* FruitsContainer.xcdatamodeld */,
 				BFC4836B2B675E6500A288F9 /* Assets.xcassets */,
 				BFC4836D2B675E6500A288F9 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC483772B67601300A288F9 /* FruitsContainer.xcdatamodeld in Sources */,
 				BFC4836A2B675E6400A288F9 /* ContentView.swift in Sources */,
 				BFC483682B675E6400A288F9 /* CoreDataWithMVVMApp.swift in Sources */,
 			);
@@ -344,6 +348,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFC483752B67601300A288F9 /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFC483762B67601300A288F9 /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = BFC483762B67601300A288F9 /* FruitsContainer.xcdatamodel */;
+			path = FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BFC4835C2B675E6400A288F9 /* Project object */;
 }
